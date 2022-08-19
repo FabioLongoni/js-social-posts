@@ -97,11 +97,12 @@ for (key in posts) {
             </div> 
         </div>            
     </div>`
-    let containerElement = document.getElementById('container');
-    containerElement.innerHTML = postsElements;
-    console.log(containerElement);
+    
     
     postsNumber.push(postsElements);
     
 }
 
+let containerElement = document.getElementById('container');
+containerElement.innerHTML = postsNumber;
+console.log(containerElement);
